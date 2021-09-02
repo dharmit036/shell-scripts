@@ -1,4 +1,4 @@
-# shell-scripts
+# Automation scripts
 Useful shell scripts for configuration of servers
 ---
 1. environment_setup.sh
