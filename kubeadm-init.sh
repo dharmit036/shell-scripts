@@ -29,7 +29,7 @@ sysctl --system
 
 ## Setup CRI
 wget --quiet https://github.com/containerd/containerd/releases/download/v1.7.0/containerd-1.7.0-linux-amd64.tar.gz
-tar Cxzvf /usr/local containerd-1.6.2-linux-amd64.tar.gz
+tar Cxzvf /usr/local containerd-1.7.0-linux-amd64.tar.gz
 mkdir -p /etc/containerd
 containerd config default > /etc/containerd/config.toml
 systemctl daemon-reload
